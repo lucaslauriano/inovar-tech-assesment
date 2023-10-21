@@ -1,8 +1,29 @@
 import { SVGAttributes } from 'react';
 
-import { MenuBarsIcon, PlusIcon, SearchIcon } from '@/components/Icons';
+import {
+  PlusIcon,
+  SearchIcon,
+  HexagonIcon,
+  ArrowUpIcon,
+  MenuBarsIcon,
+  ExchangeArrowIcon,
+  TwitterIcon,
+  FacebookIcon,
+} from '@/components/Icons';
+import Chat from '@/components/Icons/components/Chat';
 
 const Icons = {
+  exchange_arrows: ({ className }: SVGAttributes<{}>) => (
+    <ExchangeArrowIcon className={className} />
+  ),
+  chat: ({ className }: SVGAttributes<{}>) => <Chat className={className} />,
+  twitter: ({ className }: SVGAttributes<{}>) => (
+    <TwitterIcon className={className} />
+  ),
+  facebook: ({ className }: SVGAttributes<{}>) => (
+    <FacebookIcon className={className} />
+  ),
+
   plus: ({ className }: SVGAttributes<{}>) => (
     <PlusIcon className={className} />
   ),
@@ -11,6 +32,12 @@ const Icons = {
   ),
   menu_bars: ({ className }: SVGAttributes<{}>) => (
     <MenuBarsIcon className={className} />
+  ),
+  hexagon: ({ className }: SVGAttributes<{}>) => (
+    <HexagonIcon className={className} />
+  ),
+  arrow_up: ({ className }: SVGAttributes<{}>) => (
+    <ArrowUpIcon className={className} />
   ),
 };
 
