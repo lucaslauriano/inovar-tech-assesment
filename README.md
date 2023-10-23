@@ -1,6 +1,6 @@
 ## Live
 
-You can access the latest version of the application published on Vercel [`here`](https://inovar-tech-assesment-man6tk7gx-lucaslauriano.vercel.app/).
+You can access the latest version of the application published on Vercel [`here`](https://inovar-tech-assesment.vercel.app/).
 
 ## Getting Started
 
