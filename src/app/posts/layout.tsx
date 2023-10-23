@@ -9,7 +9,7 @@ const PostsLayout = ({ children }: { children: React.ReactNode }) => {
       <div className='mx-auto max-w-3xl px-4 sm:px-6 lg:px-8'>
         <div className='mx-auto'>{children}</div>
 
-        <div className='mt-2 flex items-center justify-between'>
+        <div className='mt-2 mb-4 flex items-center justify-between'>
           <div className='flex'>
             <Logo />
             <div className='-ml-1'>
