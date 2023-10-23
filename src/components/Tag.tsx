@@ -38,7 +38,7 @@ export default function Tag({
   return (
     <div
       className={classNames(
-        'inline-flex rounded-full max-w-[110px] bg-gray-50 h-[24px] pl-1 items-center',
+        'inline-flex rounded-full max-w-[110px] bg-gray-50 h-[24px] pl-1 items-center text-white',
         entity ? statusInfo[entity].bgColor : 'bg-gray-50',
         className,
       )}

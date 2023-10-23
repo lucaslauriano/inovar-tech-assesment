@@ -58,10 +58,7 @@ const PostList = () => {
                   </p>
                 </div>
                 <div className='flex flex-row items-center gap-x-[6px] mt-1 h-[30px] pt-2'>
-                  <Tag
-                    entity={post.articleSection}
-                    className='text-white bg-indigo-300'
-                  />
+                  <Tag entity={post.articleSection} />
                   <Divider bgColor='bg-gray-300 ' orientation='vertical' />
                   <Avatar
                     src={post.author.imageUrl}
