@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
 
+import PostList from '@/app/posts/components/PostList';
+
 export const metadata: Metadata = {
   title: 'Postagens',
   description: 'This is the post page',
 };
 
-export default async function AboutPage() {
-  return <h1>Postagens</h1>;
+export default async function PostsPage() {
+  return <PostList />;
 }

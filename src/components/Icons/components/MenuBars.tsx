@@ -13,16 +13,16 @@ export default function MenuBars({ className }: IconProps) {
       height='201px'
       fill='currentColor'
       stroke='currentColor'
-      stroke-width='0.00512'
+      strokeWidth='0.00512'
       className={className}
     >
-      <g id='SVGRepo_bgCarrier' stroke-width='0'></g>
+      <g id='SVGRepo_bgCarrier' strokeWidth='0'></g>
       <g
         id='SVGRepo_tracerCarrier'
         strokeLinecap='round'
         strokeLinejoin='round'
         stroke='#CCCCCC'
-        stroke-width='6.144'
+        strokeWidth='6.144'
       ></g>
       <g id='SVGRepo_iconCarrier'>
         <style type='text/css'> </style>{' '}

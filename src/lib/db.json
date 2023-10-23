@@ -1,0 +1,138 @@
+[
+  {
+    "headline": "Want people to use your product? Use it yourself.",
+    "createdAt": "2019-02-11T11:11:11",
+    "storyVoteScore": 11,
+    "articleSection": "PRODUCT_DESING",
+    "author": {
+      "name": "John Doe",
+      "imageUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+    },
+    "publisher": {
+      "name": "Medium",
+      "url": "medium.com"
+    },
+    "comments": [
+      "Nice, great post!",
+      "Awesome!",
+      "Keep up the good work!",
+      "Thanks for the post!",
+      "Please, keep it up!"
+    ]
+  },
+  {
+    "headline": "Font Size Idea: px at the Root, rem for components, em for Text Elements.",
+    "createdAt": "2019-02-11T11:11:11",
+    "storyVoteScore": 9,
+    "articleSection": "UX_THEORY",
+    "author": {
+      "name": "Sophie Arun",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=3161&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    "publisher": {
+      "name": "Sachafreif",
+      "url": "sachafreif.com"
+    },
+    "comments": ["Nice, great post!", "Awesome!", "Keep up the good work!"]
+  },
+  {
+    "headline": "What Do You Do With a Failed Product?",
+    "createdAt": "2019-02-11T11:11:11",
+    "storyVoteScore": 4,
+    "articleSection": "OPINION",
+    "author": {
+      "name": "Sacha Greif",
+      "imageUrl": ""
+    },
+    "publisher": {
+      "name": "Insidentercom IO",
+      "url": "insidentercom.io"
+    },
+    "comments": [
+      "Nice, great post!",
+      "Keep up the good work!",
+      "Thanks for the post!",
+      "Please, keep it up!",
+      "Nice, great post!",
+      "You are the best!",
+      "Keep up the good work!",
+      "Thanks for the post!",
+      "Please, keep it up!",
+      "Nice, great post!"
+    ]
+  },
+  {
+    "headline": "Some things can't be wireframed",
+    "createdAt": "2023-10-22T11:11:11",
+    "storyVoteScore": 4,
+    "articleSection": "OPINION",
+    "author": {
+      "name": "John Doe",
+      "imageUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+    },
+    "publisher": {
+      "name": "Insidentercom IO",
+      "url": "insidentercom.io"
+    },
+    "comments": [
+      "Nice, great post!",
+      "Keep up the good work!",
+      "Thanks for the post!",
+      "Please, keep it up!",
+      "Nice, great post!",
+      "You are the best!",
+      "Keep up the good work!",
+      "Thanks for the post!",
+      "Please, keep it up!",
+      "Nice, great post!"
+    ]
+  },
+  {
+    "headline": "Case Study: Redesingning the User Experience of a Web App.",
+    "createdAt": "2023-02-11T11:11:11",
+    "storyVoteScore": 3,
+    "articleSection": "CASE_STUDY",
+    "author": {
+      "name": "Sacha Greif",
+      "imageUrl": ""
+    },
+    "publisher": {
+      "name": "Insidentercom IO",
+      "url": "insidentercom.io"
+    },
+    "comments": [
+      "Nice, great post!",
+      "Keep up the good work!",
+      "Nice, great post!",
+      "You are the best!",
+      "Keep up the good work!",
+      "Thanks for the post!",
+      "Please, keep it up!",
+      "Nice, great post!"
+    ]
+  },
+  {
+    "headline": "Don't let bad processes kill your product.",
+    "createdAt": "2023-10-11T17:11:11",
+    "storyVoteScore": 2,
+    "articleSection": "CASE_STUDY",
+    "author": {
+      "name": "Jessica Chastain",
+      "imageUrl": "https://f001.backblazeb2.com/file/papocine/2018/03/20180322-jessicachastain.jpg"
+    },
+    "publisher": {
+      "name": "Insidentercom IO",
+      "url": "insidentercom.io"
+    },
+    "comments": [
+      "Nice, great post!",
+      "Keep up the good work!",
+      "Nice, great post!",
+      "You are the best!",
+      "Keep up the good work!",
+      "Thanks for the post!",
+      "Please, keep it up!",
+      "Nice, great post!"
+    ]
+  }
+]

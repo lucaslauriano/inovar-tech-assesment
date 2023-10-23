@@ -1,20 +1,15 @@
 'use client';
 
-import { useState } from 'react';
-
 import Button from '@/components/Button';
 import Icon from '@/components/Icon';
+import { useFilterStore } from '@/stores/useFilterStore';
 
-type FilterProps = {
-  onSearch: (searchTerm: string) => void;
-};
-export default function Filter({ onSearch }: FilterProps) {
-  const [searchTerm, setSearchTerm] = useState<string>('');
+export default function Filter() {
+  const { searchTerms, setSearchTerms } = useFilterStore();
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newSearchTerm = event.target.value;
-    setSearchTerm(newSearchTerm);
-    onSearch(newSearchTerm);
+    setSearchTerms(newSearchTerm);
   };
 
   return (
@@ -42,9 +37,9 @@ export default function Filter({ onSearch }: FilterProps) {
           </div>
           <input
             type='search'
-            value={searchTerm}
+            value={searchTerms}
             onChange={handleInputChange}
-            className='bg-gray-200 block w-full rounded-[3px] border-0 py-1.5 pl-10 text-gray-800 ring-1 ring-inset ring-gray-200 placeholder:text-gray-400 focus:ring-3 focus:ring-inset focus:none sm:text-sm sm:leading-6'
+            className='bg-gray-200 block w-full rounded-[3px] border-0 py-1.5 pl-10 pr-2  text-gray-800 ring-1 ring-inset ring-gray-200 placeholder:text-gray-400 focus:ring-3 focus:ring-inset focus:none sm:text-sm sm:leading-6'
             placeholder=''
           />
         </div>
