@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <nav
       className='bg-white border-solid border-b-[1px] border-gray-200'
-      data-testid='navbar__nav'
+      data-testid='navbar__testid'
     >
       <Menu />
     </nav>

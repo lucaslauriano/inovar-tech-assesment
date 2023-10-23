@@ -1,4 +1,4 @@
-import { IJob, IResponse } from '@/types/posts';
+import { IPost, IResponse } from '@/types/posts';
 
 const baseUrl = process.env.REACT_APP_SERVICE_BASE_URL as RequestInfo | URL;
 export const findById = (data: IResponse[], id: number) => {
@@ -11,7 +11,7 @@ export const findById = (data: IResponse[], id: number) => {
   }
   return null;
 };
-export async function getPost(postId: number): Promise<IJob | null> {
+export async function getPost(postId: number): Promise<IPost | null> {
   const res = await fetch(baseUrl);
 
   if (!res.ok) throw new Error('Failed to fetch post');

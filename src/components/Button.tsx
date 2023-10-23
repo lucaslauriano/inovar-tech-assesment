@@ -101,6 +101,7 @@ export default function Button({
       type={type}
       onClick={onClick}
       disabled={disabled}
+      data-testid='button__testid'
       className={classNames(
         'flex items-center font-semibold rounded-[3px] transition-all duration-200 text-[12px]',
         buttonSizes[size],
