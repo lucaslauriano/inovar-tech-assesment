@@ -9,7 +9,7 @@ export interface PostsStores {
 export const createPostsSlice: StateCreator<PostsStores> = (set) => ({
   posts: [] as any[],
   fetchPosts: async () => {
-    const posts = await getAllposts();
+    const { posts } = await getAllposts();
     set({ posts });
   },
 });

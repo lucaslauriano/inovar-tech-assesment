@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   env: {
     REACT_APP_SERVICE_BASE_URL:
-      'https://run.mocky.io/v3/f05cd6b6-bf97-47fc-920b-be9726496c21',
+      'https://run.mocky.io/v3/a94fc67f-71a2-475d-a6a4-ddde5c566f67',
   },
   images: {
     remotePatterns: [

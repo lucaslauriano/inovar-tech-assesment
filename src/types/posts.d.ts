@@ -1,18 +1,12 @@
 export interface IResponse {
   id: number;
-  headline: string;
-  createdAt: string;
-  storyVoteScore: number;
-  articleSection: string;
-  author: {
-    name: string;
-    imageUrl: string;
-  };
-  publisher: {
-    name: string;
-    url: string;
-  };
-  comments: Array<string>;
+  url: string;
+  author: string;
+  category: string;
+  comments: number;
+  likes: number;
+  created_at: string;
+  title: string;
 }
 
 export type IPost = Omit<IResponse, 'id'>;
