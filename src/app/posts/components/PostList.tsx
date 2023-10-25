@@ -25,11 +25,27 @@ const PostList = () => {
     if (!posts.length) {
       return;
     }
-    setFilteredPosts(
-      posts.filter((post) =>
-        post.title.toLowerCase().includes(searchTerms.toLowerCase()),
-      ),
+
+    const filterPosts = posts.filter((item) => {
+      const lowerCaseInputTerm = searchTerms.inputTerm.toLowerCase();
+      const lowerCaseTitle = item.title.toLowerCase();
+      const lowerCaseCategory = item.category.toLowerCase();
+      const lowerCaseAuthor = item.author.toLowerCase();
+
+      return (
+        lowerCaseTitle.includes(lowerCaseInputTerm) ||
+        lowerCaseCategory.includes(lowerCaseInputTerm) ||
+        lowerCaseAuthor.includes(lowerCaseInputTerm)
+      );
+    });
+
+    const finalPosts = filterPosts.filter(
+      (item) =>
+        item[searchTerms.type] === searchTerms.filterTerm ||
+        searchTerms.filterTerm === '',
     );
+
+    setFilteredPosts(finalPosts);
   }, [posts, searchTerms]);
 
   return (

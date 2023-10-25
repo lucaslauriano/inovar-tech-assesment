@@ -37,13 +37,11 @@ export default function Tag({
   entity = '',
   className = '',
 }: ChipProps) {
-  console.log('asdasd', statusInfo[entity]);
-  console.log('entity', entity);
   return (
     <div
       className={classNames(
-        'inline-flex rounded-full max-w-[110px] bg-gray-50 h-[24px] pl-1 items-center text-white',
-        entity ? statusInfo[entity].bgColor : '',
+        'inline-flex rounded-full max-w-[110px]  h-[24px] pl-1 items-center text-white',
+        entity ? statusInfo[entity].bgColor : 'bg-blue-500',
         className,
       )}
     >
